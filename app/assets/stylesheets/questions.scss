@@ -1,0 +1,48 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$gray: #F4F4F4;
+
+body {
+  background: $gray; // Using this variable
+}
+
+.banner {
+  background:#F4F4F4;
+  h1 {
+    font-size: 50px;
+  }
+}
+
+a {
+  color: blue;
+  &:hover {
+    color: black;
+  }
+}
+
+.question {
+  display: flex;
+  flex-direction: column;
+  border-left-color:gray;
+  border-left-style: solid;
+  padding-left: 8px;
+  }
+
+
+.answer {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(242, 234, 152);
+  border-left-color: gray;
+  border-left-style: solid;
+  padding-left: 8px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  #coach {
+    font-weight: bold;
+  }
